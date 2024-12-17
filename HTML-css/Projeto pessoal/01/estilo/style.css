@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../roboto/Roboto-Bold.ttf') format(truetype);
+}
+
+
+:root{
+    --cor0: rgb(54, 87, 148);
+    --cor1: rgba(100, 107, 144, 0.112);
+    --cor2: rgb(32, 45, 68);
+}
+
+
+header{
+    background-color: rgb(54, 87, 148);
+    background-image: linear-gradient(to right, var(--cor0), rgb(188, 211, 245));
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    text-indent: 80px;
+    font-family: 'roboto', sans-serif;
+}
+
+header > h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+header > p{
+    font-size: 30px;
+    margin-top: -10px;
+    padding-bottom: 200px;
+}
+
+header > nav > a{
+    font-size: 25px;
+    background-color: white;
+    color: var(--cor0);
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+header > nav > a:hover{
+    background-color: var(--cor0);
+    color: white;
+    border-radius: 8px;
+}
+
+main{
+background-color: var(--cor1);
+margin-top: -25px;
+font-family: 'roboto';
+color: var(--cor2);
+}
+
+main > ul{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+main > h3{
+    background-color: var(--cor0);
+}
+main > section{
+    background-color: var(--cor0);
+    color: white;
+    text-indent: 30px;
+    padding: 40px;
+    padding-top: 15px;
+    border-radius: 5px;
+    
+}
+
+main > section > h3{
+    font-size: 40px;
+    text-indent: 30px;
+}
+
+main > section > nav >a{
+    background-color: white;
+    color: var(--cor0);
+    text-indent: 30px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+section > nav > a:hover{
+    border-radius: 15px;
+    background-color: var(--cor0);
+    color: white;
+    padding: 10px;   
+}
+
+footer{
+    background-color: navy;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primeiro{
+    margin-top: -30px;
+    font-size: 15px;
+}
+.segundo{
+    padding-top: 50px;
+}
