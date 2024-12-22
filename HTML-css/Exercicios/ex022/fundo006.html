@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
 
     <style>
         body{
@@ -12,11 +12,16 @@
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat; /*não repete a imagem*/
             background-size: cover; /*ocupa 100% da viewport*/
+            background-attachment: fixed; /*deixa o fundo fixo e rola somente o conteúdo do main*/
            
+            /* shorthand - background color - image - position - repeat - attachment
+            ex: background: black url('axyxyxyxyx') center center no-repeat fixed
+            background-size: cover;
+            */
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,7 +32,7 @@
 <body>
     <main>
         <h1>teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, necessitatibus. Obcaecati quo doloremque consequuntur eligendi aperiam earum minus saepe voluptates, veniam omnis non accusantium impedit dolore, amet cum ut officia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quo fuga, voluptate expedita temporibus earum sapiente. Voluptatum officia provident eius magni quasi rem suscipit, quis placeat, omnis veniam nostrum natus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa magnam, iure aliquid laboriosam officia recusandae excepturi sed eum temporibus? Id perspiciatis sunt itaque exercitationem distinctio deleniti earum quam, natus ut!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, necessitatibus. Obcaecati quo doloremque consequuntur eligendi aperiam earum minus saepe voluptates, veniam omnis non accusantium impedit dolore, amet cum ut officia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quo fuga, voluptate expedita temporibus earum sapiente. Voluptatum officia provident eius magni quasi rem suscipit, quis placeat, omnis veniam nostrum natus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa magnam, iure aliquid laboriosam officia recusandae excepturi sed eum temporibus? Id perspiciatis sunt itaque exercitationem distinctio deleniti earum quam, natus ut!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, necessitatibus. Obcaecati quo doloremque consequuntur eligendi aperiam earum minus saepe voluptates, veniam omnis non accusantium impedit dolore, amet cum ut officia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quo fuga, voluptate expedita temporibus earum sapiente. Voluptatum officia provident eius magni quasi rem suscipit, quis placeat, omnis veniam nostrum natus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa magnam, iure aliquid laboriosam officia recusandae excepturi sed eum temporibus? Id perspiciatis sunt itaque exercitationem distinctio deleniti earum quam, natus ut!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, necessitatibus. Obcaecati quo doloremque consequuntur eligendi aperiam earum minus saepe voluptates, veniam omnis non accusantium impedit dolore, amet cum ut officia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quo fuga, voluptate expedita temporibus earum sapiente. Voluptatum officia provident eius magni quasi rem suscipit, quis placeat, omnis veniam nostrum natus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa magnam, iure aliquid laboriosam officia recusandae excepturi sed eum temporibus? Id perspiciatis sunt itaque exercitationem distinctio deleniti earum quam, natus ut!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, necessitatibus. Obcaecati quo doloremque consequuntur eligendi aperiam earum minus saepe voluptates, veniam omnis non accusantium impedit dolore, amet cum ut officia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quo fuga, voluptate expedita temporibus earum sapiente. Voluptatum officia provident eius magni quasi rem suscipit, quis placeat, omnis veniam nostrum natus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa magnam, iure aliquid laboriosam officia recusandae excepturi sed eum temporibus? Id perspiciatis sunt itaque exercitationem distinctio deleniti earum quam, natus ut!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, necessitatibus. Obcaecati quo doloremque consequuntur eligendi aperiam earum minus saepe voluptates, veniam omnis non accusantium impedit dolore, amet cum ut officia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quo fuga, voluptate expedita temporibus earum sapiente. Voluptatum officia provident eius magni quasi rem suscipit, quis placeat, omnis veniam nostrum natus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa magnam, iure aliquid laboriosam officia recusandae excepturi sed eum temporibus? Id perspiciatis sunt itaque exercitationem distinctio deleniti earum quam, natus ut!</p>
     </main>
 </body>
 </html>
