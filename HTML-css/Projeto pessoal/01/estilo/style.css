@@ -106,3 +106,9 @@ footer{
 .segundo{
     padding-top: 50px;
 }
+
+div.noticia{
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+}
