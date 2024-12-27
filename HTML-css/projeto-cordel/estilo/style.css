@@ -34,10 +34,11 @@ header{
 }
 
 #segundo{
+    padding-top: 100px;
     background-color: rgba(0, 0, 0, 0.564);
     color: white;
     background-image: url('../imagens/background001.jpg');
-    height: 80vh;
+    height: 70vh;
     background-size: 100%;
     background-repeat: no-repeat;
 }
