@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+
+
 main{
     font-family: 'Sriracha', 'Sriracha', sans-serif;
 }
@@ -33,9 +35,9 @@ header{
     color: black;
 }
 
-#segundo{
+#imagem01{
     padding-top: 100px;
-    background-color: rgba(0, 0, 0, 0.564);
+    background-color: rgba(0, 0, 0, 0.817);
     color: white;
     background-image: url('../imagens/background001.jpg');
     height: 70vh;
@@ -43,3 +45,24 @@ header{
     background-repeat: no-repeat;
 }
 
+#imagem02{
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.817);
+    color: white;
+    background-image: url('../imagens/background002.jpg');
+    height: 70vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
