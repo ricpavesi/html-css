@@ -4,15 +4,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body{
     background-color: darkgray;
     min-height: 100vh;
-
+    font-family: var(--fonte1);
 }
 
 header{
@@ -24,6 +32,9 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw; /*dessa forma a fonte será 10% da largura da tela, adaptando-se conforme a tela for aumenta
+    ou diminuida. vw = viewport width que significa percentual do navegador.*/
 }
 
 header > p{
@@ -45,6 +56,9 @@ section{ /* criando efeito parallax*/
     padding-bottom: 10vh;/* usado para efeito parallax*/
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 5vw; /*dessa forma a fonte será 5% da largura da tela, adaptando-se conforme a tela for aumenta
+    ou diminuida. vw = viewport width que significa percentual do navegador.*/
 }
 
 section.comum{
@@ -60,7 +74,8 @@ section.imagem{
 
 section.imagem > p{ /* criando uma caixa preta dentro*/
     background-color: rgba(0, 0, 0, 0.683);
-    width: 400px;
+    display: inline-block; /* inicialmente a configuração aqui foi 'width: 400px',
+    mas ao usar displau: inline-block a caixa preta que foi criada se adapta ao texto em telas menores;*/
 }
 footer{
     background-color: black;
