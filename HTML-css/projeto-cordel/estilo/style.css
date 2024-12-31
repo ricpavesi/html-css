@@ -57,7 +57,7 @@ section{ /* criando efeito parallax*/
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 5vw; /*dessa forma a fonte será 5% da largura da tela, adaptando-se conforme a tela for aumenta
+    font-size: 2vw; /*dessa forma a fonte será 5% da largura da tela, adaptando-se conforme a tela for aumenta
     ou diminuida. vw = viewport width que significa percentual do navegador.*/
 }
 
@@ -69,6 +69,7 @@ section.comum{
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    background-attachment: fixed;/* efeito parallax*/
 
 }
 
@@ -87,10 +88,12 @@ footer{
     background-image: url(../imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right center;
 }
 
 #imagem02{
     background-image: url(../imagens/background002.jpg);
     background-repeat: no-repeat; /*não repetir a imagem*/
     background-size: cover;
+    background-position: right center;
 }
