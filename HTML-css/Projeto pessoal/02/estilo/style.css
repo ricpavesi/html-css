@@ -74,3 +74,76 @@ section.poesia{
     border-radius: 10px;
     
 }
+
+#primeira{
+    background-image: url("../background001.jpg");
+    color: white;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+#segunda{
+    background-image: url("../background001.jpg");
+    color: white;
+    font-weight: bold;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+}
+
+.censo{
+    padding-top: 10px;
+    background-color: #EDE4DD;
+    width: 460px;
+    height: 130px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.censo > h2{
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+
+.censo > p{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.censo > a{
+    background-color: #FE7F40;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.7em;
+}
+.emalta{
+    background-color: #111827;
+    padding: 5px;
+    width: 450px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+}
+
+.primeiralinha{
+    display: inline;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#um{
+    padding: 30px;
+    margin-right: 70px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#dois{
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
