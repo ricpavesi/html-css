@@ -32,6 +32,7 @@ header{
     color: white;
     background-color: black;
     background-image: linear-gradient(160deg, #43261A, black);
+    margin-bottom: 30px;
 }
 
 header > h1{
@@ -54,4 +55,22 @@ header > a{
     padding: 8px;
     font-weight: 200;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo{
+    padding: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+section.poesia{
+    background-color: rgba(250, 235, 215, 0.373);
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    
 }
