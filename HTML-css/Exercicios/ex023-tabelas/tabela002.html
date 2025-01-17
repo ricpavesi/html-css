@@ -11,6 +11,7 @@
 
         table{
             width: 500px;
+            position: relative; /*Usado para fixar o cabeçalho*/
         }
 
         td, th{
@@ -20,6 +21,12 @@
         thead{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky; /*Usado para fixar o cabeçalho*/
+            top: -1px; /*Usado para fixar o cabeçalho*/
+            background-color: gray; /*Usado para fixar o cabeçalho*/
         }
         td.num{
             text-align: center;
