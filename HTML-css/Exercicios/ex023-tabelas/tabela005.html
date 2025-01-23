@@ -18,10 +18,25 @@
             border: 1px solid black;
             padding: 8px;
         }
+        tr.destaque{
+            background-color: aqua;
+        } /* nesse exemplo foi usada a class=destaque para destacar uma linha, porém paar destacar colunas inteiras é mais trabalhoso,
+        então segue abaixo como fazer, usando colgroup no 'table'*/
+        
+        col.cnome{
+            background-color: chartreuse;
+        } /*após ter criado a função colgroup e col, foi atribuída uma cor a coluna nome*/
+
     </style>
 </head>
 <body>
     <table>
+        <colgroup> <!--é criado um 'col' para cada coluna da tabela-->
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
         <caption>cadastrp</caption>
         <tr>
             <th>nome</th>
@@ -65,7 +80,7 @@
             <td>30</td>
             <td>jornalista</td>
         </tr>
-        <tr>
+        <tr class="destaque">
             <td>joana</td>
             <td>f</td>
             <td>32</td>
