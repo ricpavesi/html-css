@@ -13,10 +13,18 @@
 </head>
 <body>
     <h1>MEU PRIMEIRO FORMULÁRIO</h1>
-    <form>
-        <p>nome: <input type="text" name="nome" id="nome"></p>
-        <p>sobrenome: <input type="text" name="sobrenome" id="sobrenome"> </p>
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--autocomplete=off desliga o preenchimento automático
+        já o cadastro.php é para onde o preenchimento do formulário é enviado. Neste exemplo foi usado para envio
+        para linguagem php.-->
+        <p><label for="inome">nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"> </p>
         <input type="submit" value="Enviar">
+        <!--A função "label" serve para criar uma correlação entre o input e o texto do formulário.-->
+        <!--method: GET: as informações preenchidas aparecem na URL, já o POST as informações não aparecem na url
+        porém no POST as informações aparecem no inspecionar, ou seja, não há criptrografia nem é mais seguro.
+        GET: se usa quando os dados NÃO são sensíveis.
+        POST: dados sensíveis, dados com mais de 3000bytes, envios de arquivos. Sobre segurança é
+        importante estudar protocolo https-->
     </form>
 </body>
 </html>
