@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exemplo de formulário</h1>
+
+    <!--função SELECT-->
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+                <option value="" selected>----escolha----</option>
+                <optgroup label="Sudeste">
+                    <option value="RJ">Rio de janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+
+
+<!--abaico: usando DATALIST-->
+        <p>
+            <label for="iprof">profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>administrador</option>
+                <option>medico</option>
+            </datalist>
+            <!--a diferença de datalist para select, é que no datalist a caixa deixa digitar-->
+        </p>
+<!--TEXTAREA-->
+        <P>
+            <label for="imsg">mensagem</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </P>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="reiniciar">
+        </p>
+    </form>
+</body>
+</html>
