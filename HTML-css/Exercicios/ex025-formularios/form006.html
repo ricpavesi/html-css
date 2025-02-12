@@ -15,7 +15,8 @@
 
         <p>
             <label for="inivel">nivel de satisfação</label>
-            <input type="range" name="nivel" id="inivel" min="1" max="1000"> <!--por padrão vai de 0 a 100-->
+            <input type="range" name="num" id="inum" min="1" max="1000" value="5" oninput="ival.innerHTML = Number(inum.value)"> <!--por padrão vai de 0 a 100-->
+            <output id="ival">5</output>
         </p>
 
         <p>
