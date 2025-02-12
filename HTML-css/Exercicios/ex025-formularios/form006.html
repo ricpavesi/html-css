@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário: Color, Range e File</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="Cor" id="icor">
+        </p>
+
+        <p>
+            <label for="inivel">nivel de satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="1000"> <!--por padrão vai de 0 a 100-->
+        </p>
+
+        <p>
+            <label for="ifoto">foto do perfil</label>
+            <input type="file" name="foto" id="ifoto">
+            <!--qdo utilizar este tipo de controle (file), precisa ser usado o método POST e não o GET-->
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <p><input type="reset" value="Reiniciar"></p>
+        </p>
+    </form>
+</body>
+</html>
