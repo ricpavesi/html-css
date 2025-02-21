@@ -1,4 +1,16 @@
 @charset "UTF-8";
+header{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 2px solid rgb(192, 190, 190);
+
+}
+
+header > h1{
+    text-align: center;
+}
+
+
 .noticia{
     display: inline-block;
 }
